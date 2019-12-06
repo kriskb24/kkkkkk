@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{info}}</h1>
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Home</router-link>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-      info: "My name is barry allen, and i'm the faster man alive!"
+      info: "hello galerinha aqui quem fala eh o luan game preis!"
     };
   }
 };
